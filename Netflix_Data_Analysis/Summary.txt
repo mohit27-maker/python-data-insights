@@ -1,0 +1,61 @@
+Objective:
+
+- Perform an exploratory data analysis (EDA) on Netflix movie/show data to uncover trends, patterns, and insights about content distribution, popularity,          and user ratings.
+
+- Answer key business or analytical questions: What genres are most common? Which titles are most/least popular? How do ratings distribute?
+
+Dataset:
+
+- A dataset of Netflix titles (movies & TV shows) containing columns like: genre, vote average, popularity, release date, title, etc.
+
+- Cleaned and preprocessed using Python (Pandas) to make it analysis-ready.
+
+Key Steps:
+
+1. Data Cleaning
+
+- Handle missing or malformed values
+
+- Convert date columns to datetime type
+
+- Clean up genre, vote, and popularity fields
+
+2. Feature Engineering
+
+- Create categorical bins for Vote_Average (e.g., “not popular”, “average”, “popular”)
+
+- Derive new date-related features (year, month, maybe weekday) if needed
+
+3. Exploratory Data Analysis (EDA)
+
+- Genre Distribution: Count of titles by genre (bar charts)
+
+- Vote Average Distribution: How many titles fall into each rating category
+
+- Popularity Analysis: Identify which movies/shows have the highest and lowest popularity
+
+- Time Trends (if applicable): Show trends of added content over date / time
+
+4. Visualization
+
+- Use Seaborn/matplotlib to create bar charts, count plots, and maybe line graphs
+
+- Possibly use heatmaps or scatter plots, depending on the data
+
+5. Insights & Findings
+
+- The most frequent genre is Drama
+
+- Most titles fall into the average vote rating category
+
+- The most “popular” movie or show and what genre it belongs to
+
+- The least popular title and its genre
+
+6. Conclusion / Recommendations
+
+- Netflix could focus on producing more content in genres that are both frequent and popular.
+
+- Titles with lower Vote_Average but high popularity might indicate commercial success over critical acclaim.
+
+- If trends over time are shown, maybe recommend optimal times for content release.
